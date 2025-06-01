@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: radial-gradient(#111 0%, #000 100%);
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+/* Sao */
+.star {
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    animation: twinkle 2s infinite ease-in-out;
+    opacity: 0.8;
+}
+
+@keyframes twinkle {
+    0%,
+    100% {
+        opacity: 0.2;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+/* Rơi chữ/ảnh */
+.falling {
+    position: absolute;
+    top: -50px;
+    font-size: 40px;
+    color: pink;
+    animation: fall 6s linear forwards;
+    user-select: none;
+    white-space: nowrap;
+}
+
+.falling.image img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+@keyframes fall {
+    to {
+        top: 100vh;
+        opacity: 0;
+        transform: translateY(20px) rotate(30deg);
+    }
+}
