@@ -2,10 +2,10 @@ const container = document.getElementById("container");
 const audio = document.getElementById("bg-audio");
 
 const messages = [
-    "I love you so much 🫶",
-    "Anh yêu em ❤️",
-    "Em bé xinh đẹp 🥰",
-    "Tình yêu to bự 🥰",
+    "Chúc bé của a 1/6 vui vẻ 🫶",
+    "Chúc cô bé của a luôn vui tươi yêu đời ❤️",
+    "Yêu anh nhiều hơn và giận anh ít thôi nhé 🥰",
+    "Mãi iu em Nguyễn Anh Thư 🥰",
 ];
 
 const images = [
@@ -14,13 +14,6 @@ const images = [
     "assets/imgs/avt3.jpg",
     "assets/imgs/avt4.jpg",
     "assets/imgs/avt5.jpg",
-    "assets/imgs/avt6.jpg",
-    "assets/imgs/avt7.jpg",
-    "assets/imgs/avt8.jpg",
-    "assets/imgs/avt9.jpg",
-    "assets/imgs/avt10.jpg",
-    "assets/imgs/avt11.jpg",
-    "assets/imgs/avt12.jpg",
 ];
 
 // Xoay theo chuột
